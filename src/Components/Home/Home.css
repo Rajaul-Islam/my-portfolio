@@ -1,0 +1,8 @@
+*{
+    background-color: black;
+}
+
+.circle{
+    width: 400px;
+   clip-path: circle(); 
+}
