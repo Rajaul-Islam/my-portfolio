@@ -1,0 +1,4 @@
+
+.grayscale:hover{
+    filter: grayscale(100%);
+}

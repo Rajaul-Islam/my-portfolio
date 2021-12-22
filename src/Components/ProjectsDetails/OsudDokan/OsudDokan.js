@@ -36,7 +36,7 @@ const OsudDokan = () => {
 
                             <Col xs={12} md={5}>
                                 <h4>Home Page View</h4>
-                                <img data-aos='flip-left' className='img-fluid' src={img} alt="" />
+                                <img className='img-fluid' src={img} alt="" />
                             </Col>
                             <Col xs={12} md={7}>
 

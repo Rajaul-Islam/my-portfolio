@@ -1,0 +1,34 @@
+/* 
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 10vh;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .hexagon{
+    position: relative;
+    width: 350px;
+    height: 400px;
+}
+
+
+.container .hexagon .shape{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(231, 222, 230);
+    clip-path: inset(5% 11% 13% 10% round 5% 20% 0 10%);
+    transition: 0.5s;
+
+}
+.container .hexagon:hover .shape{
+    transform: translateY(-30px);
+} */

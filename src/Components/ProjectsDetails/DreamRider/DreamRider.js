@@ -7,8 +7,8 @@ import img4 from '../../../images/ss/rider-user.png'
 import img5 from '../../../images/ss/rider-admin.png'
 const DreamRider = () => {
     return (
-        <Container className='text-white text-start'>
-            <h1 style={{ color: '#df248d', fontWeight: '900' }} className='text-center mt-5 pt-'>Projects Details</h1>
+        <Container className='text-white text-start py-5'>
+            <h1 data-aos="zoom-out-up" style={{ color: '#df248d', fontWeight: '900' }} className=' mt-5 pt-'>Projects Details</h1>
             <Row>
                 <Row>
                     <Row>
@@ -47,7 +47,7 @@ const DreamRider = () => {
                         </Col>
 
                     </Row>
-                    <h1 style={{ color: '#df248d', fontWeight: '900' }} className='text-center mt-5'>Projects Screen-Shorts</h1>
+                    <h1  data-aos="zoom-out-up"  style={{ color: '#df248d', fontWeight: '900' }} className='mt-5'>Projects Screen-Shorts</h1>
                     <Row>
 
                         <Col xs={12} md={6}>

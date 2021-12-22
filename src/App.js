@@ -12,6 +12,8 @@ import DreamRider from './Components/ProjectsDetails/DreamRider/DreamRider';
 import OsudDokan from './Components/ProjectsDetails/OsudDokan/OsudDokan';
 import TravelGo from './Components/ProjectsDetails/TravelGo/TravelGo';
 import NotFound from './Components/NotFound/NotFound';
+import Blog from './Components/Blog/Blog';
+import ReactBlog from './Components/Blog/ReactBlog/ReactBlog';
 function App() {
   return (
     <div className="App">
@@ -30,8 +32,14 @@ function App() {
           <Route path='/osud'>
             <OsudDokan></OsudDokan>
           </Route>
+          <Route path='/blog'>
+            <Blog></Blog>
+          </Route>
           <Route path='/travel'>
             <TravelGo></TravelGo>
+          </Route>
+          <Route path='/reactBlog'>
+           <ReactBlog></ReactBlog>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>

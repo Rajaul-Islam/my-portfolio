@@ -19,7 +19,7 @@ const Projects = () => {
         });
     })
     return (
-        <div id='projects' className='py-5 my-5'>
+        <div id='projects' className='pt-5'>
             <Container className='text-start text-secondary'>
                 <div data-aos='fade-down'>
                     <h1 style={{ color: '#df248d', fontWeight: '900' }} className=''>Project Highlights</h1>
@@ -40,8 +40,8 @@ const Projects = () => {
                                 <Card.Body style={{ backgroundColor: '#121526' }}>
                                     <Card.Title style={{ backgroundColor: '#121526', color: 'white' }}>Osud Dokan</Card.Title>
                                     <Card.Text style={{ backgroundColor: '#121526' }}>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
+                                        This is Single page web application create with React JS, React-Bootstrap, CSS etc.
+
                                     </Card.Text>
                                     <ButtonToolbar data-aos='flip-down' style={{ backgroundColor: '#121526' }} aria-label="Toolbar with button groups">
                                         <ButtonGroup className="mx-auto" aria-label="Second group">
@@ -63,8 +63,7 @@ const Projects = () => {
                                 <Card.Body style={{ backgroundColor: '#121526' }}>
                                     <Card.Title style={{ backgroundColor: '#121526', color: 'white' }}>Dream Rider</Card.Title>
                                     <Card.Text style={{ backgroundColor: '#121526' }}>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
+                                        This is a full-stack web application create with Node JS, React JS, React-Bootstrap etc.
                                     </Card.Text>
                                     <ButtonToolbar data-aos='flip-down' style={{ backgroundColor: '#121526' }} aria-label="Toolbar with button groups">
                                         <ButtonGroup className="mx-auto" aria-label="Second group">
@@ -86,8 +85,7 @@ const Projects = () => {
                                 <Card.Body style={{ backgroundColor: '#121526' }}>
                                     <Card.Title style={{ backgroundColor: '#121526', color: 'white' }}>Travel Go</Card.Title>
                                     <Card.Text style={{ backgroundColor: '#121526' }}>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
+                                        This is a full-stack web application create with Node JS, React JS, React-Bootstrap etc.
                                     </Card.Text>
                                     <ButtonToolbar style={{ backgroundColor: '#121526' }} aria-label="Toolbar with button groups">
                                         <ButtonGroup data-aos='flip-down' className="mx-auto" aria-label="Second group">

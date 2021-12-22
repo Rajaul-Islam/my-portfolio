@@ -1,9 +1,19 @@
 import React from 'react';
-
+import './Skills.css'
 const Skills = () => {
     return (
-        <div>
-            <h1>this is skill</h1>
+        <div className='container'>
+            <div className='hexagon'>
+                <div className='shape'></div>
+            </div>
+            <div className='hexagon'>
+                <div className='shape'></div>
+            </div>
+            <div className='hexagon'>
+                <div className='shape'></div>
+            </div>
+          
+
         </div>
     );
 };
